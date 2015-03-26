@@ -1,0 +1,46 @@
+body{
+	background-color: #ADD8A6;
+}
+
+.navbar-custom{
+	color: #FFFFFF;
+	background-color: #CC3333;
+}
+
+#all_buttons{
+margin-top: 50px;
+}
+#result {
+margin-top: 20px;
+}
+.renderjson a {
+text-decoration: underline;
+}
+.renderjson .disclosure {
+color: crimson;
+font-size: 150%;
+}
+.renderjson .syntax {
+color: grey;
+}
+.renderjson .string {
+color: darkred;
+}
+.renderjson .number {
+color: darkcyan;
+}
+.renderjson .boolean {
+color: blueviolet;
+}
+.renderjson .key {
+color: darkblue;
+}
+.renderjson .keyword {
+color: blue;
+}
+.renderjson .object.syntax {
+color: lightseagreen;
+}
+.renderjson .array.syntax {
+color: orange;
+}

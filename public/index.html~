@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class='container'>
+<nav class='navbar navbar-inverse navbar-fixed-top'>
+<div class='container'>
+<div class='navbar-header'>
+<a class='navbar-brand'>Rock, Paper, Scissors, Lizard, Spock-A game using Express</a>
+</div>
+</div>
+</nav>
+<div id="buttons_area" class="btn-group btn-group-lg" role="group" aria-label="Select Option">
+<button id="rock_button" type="button" class="btn btn-default">Rock</button>
+<button id="paper_button" type="button" class="btn btn-default">Paper</button>
+<button id="scissors_button" type="button" class="btn btn-default">Scissor</button>
+<button id="lizard_button" type="button" class="btn btn-default">Lizard</button>
+<button id="spock_button" type="button" class="btn btn-default">Spock</button>
+</div>
+<br/>
+<br/>
+<div id="info"></div>
+<pre id="result">
+<pre>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--reference http://caldwell.github.io/renderjson/ -->
+<script type="text/javascript" src="js/renderjson.js"></script>
+<script src="js/client.js" ></script>
+</html>
