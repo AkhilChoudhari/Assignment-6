@@ -1,6 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var app = express.createServer();
+var app = express();
 app.use(express.static('public'));
 var outcomeOfGame = '{"outcome":"result","wins":0,"losses":0,"ties":0}';
 var choices = ["rock", "paper", "scissors", "lizard", "spock"];
